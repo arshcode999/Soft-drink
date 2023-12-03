@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#navbar {
+    margin: 10px;
+    padding: 20px;
+}
+#nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navli {
+    list-style: none;
+    margin: 10px;
+    padding: 4px;
+}
+.nava {
+    color: white;
+    text-decoration: none;
+}
+.nava:hover {
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+body {
+    background-color: orange;
+}
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 200px;
+    padding: 50px;
+    margin: 10px;
+}
+#bg {
+    z-index: -1;
+    position: absolute;
+}
+#fr {
+    z-index: 997;
+    position: absolute;
+    height: 500px;
+    transform: rotateZ(-25deg);
+}
+#content-b {
+    display: block;
+}
+#main-screen {
+    display: flex;
+    justify-content: center;
+}
+#orga {
+    height: 100px;
+    float: right;
+    z-index: 998;
+}
+#frleav {
+    height: 300px;
+    float: left;
+}
+#book {
+    display: block;
+}
+#bok {
+    height: 60px;
+    width: 150px;
+    margin: 20px;
+    border-radius: 20px;
+    border: 2px solid white;
+    background-color: orange;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+#bok:hover {
+    height: 60px;
+    width: 150px;
+    border: 2px solid orange;
+    background-color: white;
+    color: orange;
+}
+#nex {
+    margin: 10px;
+}
+#next {
+    height: 60px;
+    width: 150px;
+    margin: 30px;
+    border-radius: 20px;
+    border: 2px solid white;
+    background-color: orange;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+}
+#next:hover {
+    height: 60px;
+    width: 150px;
+    border: 2px solid orange;
+    background-color: white;
+    color: orange;
+}
+#lea1 {
+    height: 100px;
+    z-index: 999;
+    position: fixed;
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+#lea2 {
+    height: 100px;
+    z-index: 999;
+    float: right;
+    margin-right: 10px;
+    margin-left: 10px;
+    align-self: right;
+}
